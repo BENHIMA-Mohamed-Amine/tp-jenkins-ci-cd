@@ -1,3 +1,3 @@
 FROM nginx:alpine
 COPY nginx.conf.template /etc/nginx/templates/
-COPY *.html /usr/share/nginx/html/ 
+COPY *.html /usr/share/nginx/html/
