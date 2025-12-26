@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    container_name: my-nginx
+    environment:
+      - SERVER_NAME=localhost
+    restart: unless-stopped
